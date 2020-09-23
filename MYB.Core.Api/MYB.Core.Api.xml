@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MYB.Core.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MYB.Core.Api.Controllers.CouncilController.GetCouncilDTO">
+            <summary>
+            Get a list of available council types(local authorities)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.CouncilController.GetCouncilEntryDTO(System.Int32)">
+             <summary>
+             Get a the council entry for a specific council   
+             <param name="id"></param>
+             </summary>
+             <returns></returns>
+            <response code="404">If the entry is not found</response>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.CouncilController.GetConsituencies(System.Int32)">
+             <summary>
+             Get the constiuencies for a specific council   
+             <param name="id"></param>
+             </summary>
+             <returns></returns>
+            <response code="404">If the entry is not found</response>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.CouncilController.GetCommittees(System.Int32)">
+             <summary>
+             Get the constiuencies for a specific council   
+             <param name="id"></param>
+             </summary>
+             <returns></returns>
+            <response code="404">If the entry is not found</response>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.CouncillorController.GetCouncillorsDTO(System.Int32)">
+            <summary>
+            Get a list of councillors for a specific council
+            <param name="id">The Id found in the council endpoint</param>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.CouncillorController.GetCouncillorEntryDTO(System.Int32)">
+            <summary>
+            Get details of a specific councillor . A councillor is person, who is a member of party for a specific ward. They may aslo be member of Cabinet and fullfill a function in one or many committees
+            <param name="personId">The person Id found in the councillor endpoint</param>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetOfficerFunctions">
+            <summary>
+            Get a list of  officer functions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetCouncillorFunctions">
+            <summary>
+            Get a list of  councillor function
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetOfficerStatus">
+            <summary>
+            Get a list of  councillor function
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetTitles">
+            <summary>
+            Get a list of  person salutation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetGender">
+            <summary>
+            Get a list of  person  genders
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MYB.Core.Api.Controllers.LookUpController.GetCountries" -->
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetParties">
+            <summary>
+            Get a list of political parties
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.LookUpController.GetCommittees">
+            <summary>
+            Get a list of council committes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.OfficersController.Get(System.Int32)">
+            <summary>
+            Get a list of officers for a particular council. Officer function retunred reagrdless of whether it is curretnly being fullfilled by a person
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MYB.Core.Api.Controllers.OfficersController.GetPersonDTO(System.Int32)">
+            <summary>
+            Get an officer record. An officer may fullfill more than one officer function or be employed by more that one coucil
+             /// <param name="personId">the personID value found in the officer endpoint</param>
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
