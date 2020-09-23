@@ -1,4 +1,4 @@
-# Municipal-Yearbook-API
+# Municipal Yearbook REST API
 
 ## RESTFUL API for Muncipial Yearbook Directory
 
