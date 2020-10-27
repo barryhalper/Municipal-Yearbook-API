@@ -1,8 +1,17 @@
 # Municipal Yearbook REST API
 
-## RESTFUL API for Muncipial Yearbook Directory
+## Description
+Application that exposes data from the Municipal Yearbook over REST 
+NB. The application contains NO data
 
-#### My first application butilt using .NET CORE 3.1. 
-Uses Data transfer objects (DTO) and includes swagger self defining documentation
+## Technologies
+- ASP.NET Core 3.1 
+- C#
+- MVC Framework
+- Automapper 
+- Swagger
+- MS SQL Server
+
+
  
  
