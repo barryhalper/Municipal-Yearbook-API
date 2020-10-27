@@ -1,7 +1,7 @@
 # Municipal Yearbook REST API
 
 ## Description
-Application that exposes data from the Municipal Yearbook over REST 
+Application that exposes data from the Municipal Yearbook over REST\
 NB. The application contains NO data
 
 ## Technologies
@@ -10,7 +10,7 @@ NB. The application contains NO data
 - MVC Framework
 - Automapper 
 - Swagger
-- MS SQL Server
+
 
 
  
